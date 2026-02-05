@@ -10,7 +10,7 @@ import AIInsight from './components/AIInsight';
 
 const App: React.FC = () => {
   const [inputs, setInputs] = useState<SimulationInputs>({
-    businessCategory: '[국내원오빌/PMS_수주전문점] 도어락',
+    businessCategory: '[국내원오빌/PMS_수주전문점]도어락',
     alphaServiceTier: 'Light',
     numHouseholds: 10,
     numAlphaDevices: 0,
